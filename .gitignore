@@ -1,0 +1,30 @@
+# === IntelliJ / JetBrains ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+# 유저가 언급한 항목들 포함
+/shelf/
+/workspace.xml
+/queries/
+/dataSources/
+/dataSources.local.xml
+/httpRequests/
+
+# === Java / Gradle / Build ===
+# 모든 하위 폴더의 build 및 out 폴더 제외
+**/out/
+**/build/
+**/bin/
+
+# === OS Specfic ===
+.DS_Store
+Thumbs.db
+
+# === Application Configuration (Optional) ===
+# 보안이 필요한 설정 파일이 생길 경우를 대비
+*.log
+*.temp
+*.tmp
